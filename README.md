@@ -27,3 +27,10 @@ prerequists:
 3. creaete a file called secret.R and put all you key inside
 4. run [shiny app](shiny_chat/app.R)
 
+Using chat:
+write !show_prompt to show the _get prompt_ botton
+write !show_likert_1 for the first survey question
+write !show_likert_2 for the second survey question
+write !show_users to see all active sessions
+write !delete to clean all log
+write !dump to send the chat history to mongo

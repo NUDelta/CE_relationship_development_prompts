@@ -16,4 +16,8 @@ Using bot:
 Talk with each other, or on you own. Write __!prompt__ to recive a message with prompt
 
 
+## Shiny chat with prompts
+[App folder](shiny_chat)
+
+
 

@@ -28,9 +28,9 @@ prerequists:
 4. run [shiny app](shiny_chat/app.R)
 
 Using chat:
-write !show_prompt to show the _get prompt_ botton
-write !show_likert_1 for the first survey question
-write !show_likert_2 for the second survey question
-write !show_users to see all active sessions
-write !delete to clean all log
-write !dump to send the chat history to mongo
+- send !show_prompt to show the _get prompt_ botton
+- send !show_likert_1 for the first survey question
+- send !show_likert_2 for the second survey question
+- send !show_users to see all active sessions
+- send !delete to clean all log
+- send !dump to send the chat history to mongo

@@ -5,6 +5,7 @@ Discord bot and R Shiny chat for scaffolding conversations with LLM generated pr
 [Python bot script](discord_bot/bot_DTR.py)
 
 prerequists:
+0. Python
 1. DISCORD_TOKEN [guide for creating a discord bot](https://discordpy.readthedocs.io/en/stable/discord.html)
 2. OPENAI_KEY [OpenAI API key](https://platform.openai.com/account/api-keys)
 3. add DISCORD_TOKEN and OPENAI_KEY to the environment
@@ -19,5 +20,10 @@ Talk with each other, or on you own. Write __!prompt__ to recive a message with 
 ## Shiny chat with prompts
 [App folder](shiny_chat)
 
-
+prerequists:
+0. R
+1. OPENAI_KEY [OpenAI API key](https://platform.openai.com/account/api-keys)
+2. (optional) Project on Atlas Mongo to store loggs externally
+3. creaete a file called secret.R and put all you key inside
+4. run [shiny app](shiny_chat/app.R)
 
